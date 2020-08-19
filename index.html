@@ -2,12 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
+  <h1>Hello World, we are software developers!</h1>
   <body>
-    <h1>Hello World, we are software developers!</h1>
+
+<!-- main header -->
+ <div id="title">
+   <h2>freeCodeCamp Survey Form</h2>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+ </div>
+
+<!-- user form -->
+ <form action="">
+
+  <div class="container">
+    <label for="">Name</label>
+    <input type="text" placeholder="Enter your name">
+  </div>
+
+  <div class="container">
+    <label for="">Email</label>
+    <input type="text" placeholder="Enter your Email">
+  </div>
+
+  <div class="container">
+    <label for="">Age(optional)</label>
+    <input type="number" placeholder="Age">
+  </div>
+<!-- first drop down -->
+<div class="container">
+  <p>Which option best describes your current role?</p>
+ <select name="" id="">
+   <option value="" disabled selected value="">Select current role</option>
+   <option value="">Student</option>
+   <option value="">Full time job</option>
+   <option value="">Full time learner</option>
+   <option value="">Prefer not to say</option>
+   <option value="">Other</option>
+ </select>
+</div>
+
+<div class="container">
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <label for=""><input type="radio">Definitely</label>
+  <label for=""><input type="radio">Maybe</label>
+  <label for=""><input type="radio">Not sure</label>
+</div>
+
+ </form>
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <script src="js/index.js"></script>
