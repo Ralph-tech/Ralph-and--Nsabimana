@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <title>Survey Form</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
   </head>
-  <h1>Hello World, we are software developers!</h1>
   <body>
     <!-- main header -->
     <div id="title">
@@ -16,25 +16,25 @@
     </div>
 
     <!-- user form -->
-    <form action="">
+    <form action="" id="survey-form">
       <div class="container">
-        <label for="">Name</label>
-        <input type="text" placeholder="Enter your name" />
+        <label  id="name" for="">Name</label>
+        <input id="name-label" type="text" placeholder="Enter your name" />
       </div>
 
       <div class="container">
-        <label for="">Email</label>
-        <input type="text" placeholder="Enter your Email" />
+        <label id="email" for="">Email</label>
+        <input id="email-label" type="text" placeholder="Enter your Email" />
       </div>
 
       <div class="container">
-        <label for="">Age(optional)</label>
-        <input type="number" placeholder="Age" />
+        <label id="number" for="">Age(optional)</label>
+        <input id="number-label" type="number" placeholder="Age" />
       </div>
       <!-- first drop down -->
       <div class="container">
         <p>Which option best describes your current role?</p>
-        <select name="" id="">
+        <select name="" id="dropdown">
           <option value="" disabled selected value=""
             >Select current role</option
           >
@@ -55,7 +55,7 @@
 
       <div class="container">
         <p>What is your favorite feature of freeCodeCamp?</p>
-        <select name="" id="">
+        <select name="" id="dropdown">
           <option value="" disabled selected value="">Select an option</option>
           <option value="">Challenges</option>
           <option value="">Projects</option>
@@ -88,7 +88,7 @@
           rows="10"
           placeholder="enter your comment here......"
         ></textarea>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
       </div>
     </form>
 
